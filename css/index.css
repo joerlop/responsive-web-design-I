@@ -67,7 +67,7 @@ body {
 }
 
 .container {
-	max-width: 900px;
+    max-width: 850px;
 	margin: 0 auto;
 }
 
@@ -85,13 +85,14 @@ body {
 
 .navigation a {
 	color: grey;
-    margin-right: 15px;
+    margin-right: 30px;
     text-decoration: none;
 }
 
 @media(max-width: 800px) {
     .navigation a {
-        margin-right: 40px;
+        margin-right: 1rem;
+        font-size: 0.8rem;
     }    
 }
 
@@ -101,7 +102,7 @@ body {
         flex-direction: column;
         align-items: center;
         margin-right: 0;
-        padding: 15px;
+        padding: 15px 9rem;
         border-bottom: 1px solid grey;
     }    
 
@@ -112,9 +113,10 @@ body {
 
 .menu {
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-around;
 	align-items: center;
-	margin-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
 }
 
 @media(max-width: 800px) {
@@ -143,15 +145,16 @@ header {
 	padding-top: 30px;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: flex-end;
 }
 
 .header-title {
-	text-align: center;
+    text-align: center;
+    margin-right: 10em;
 }
 
 .header-title h1 {
-	font-size: 50px;
+	font-size: 4em;
 }
 
 header button {
@@ -187,7 +190,7 @@ header button {
 }
 
 .image-title {
-	width: 49%;
+	width: 40%;
 }
 
 .image-title img {
