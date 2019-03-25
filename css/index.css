@@ -90,17 +90,25 @@ body {
 }
 
 @media(max-width: 800px) {
+    .navigation {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
     .navigation a {
         margin-right: 1rem;
-        font-size: 0.8rem;
     }    
 }
 
 @media(max-width: 500px) {
-    .navigation a {
-        display: flex;
+    .navigation {
+        width: auto;
         flex-direction: column;
         align-items: center;
+    }
+
+    .navigation a {
         margin-right: 0;
         padding: 15px 9rem;
         border-bottom: 1px solid grey;
@@ -141,16 +149,15 @@ body {
 
 header {
 	border-bottom: 1px solid black;
-	padding-bottom: 40px;
+	padding-bottom: 50px;
 	padding-top: 30px;
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: space-around;
 }
 
 .header-title {
     text-align: center;
-    margin-right: 10em;
 }
 
 .header-title h1 {
@@ -205,7 +212,7 @@ header button {
 
 
 .top-content {
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-bottom: 20px;
 	display: flex;
 	justify-content: space-between;
