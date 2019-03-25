@@ -108,8 +108,10 @@ body {
     }
 
     .navigation a {
-        padding: 15px 9rem;
+        width: 100%;
+        padding: 15px;
         border-bottom: 1px solid grey;
+        text-align: center;
     }    
 
     .navigation a:first-child {
