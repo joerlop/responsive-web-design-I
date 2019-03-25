@@ -168,7 +168,8 @@ header button {
 	background-color: white;
 	border: 1px solid black;
 	border-radius: 2px;
-	width: 120px;
+    width: 120px;
+    padding: 5px;
 }
 
 @media(max-width: 800px) {
@@ -180,19 +181,11 @@ header button {
     .header-title h1 {
         font-size: 400%;
     }
-
-    header button {
-        padding: 5px;
-    }
 }
 
 @media(max-width: 500px) {
     .header-title h1 {
         font-size: 350%;
-    }
-
-    header button {
-        padding: 5px;
     }
 }
 
